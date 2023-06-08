@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inspection Page</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/std haven images/haven logo.jpg"
+    />
+    <link rel="stylesheet" href="/styles/inspection.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/dc99d87825.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="logo">
+          Student<img src="/std haven images/haven logo.jpg" />Haven
+        </div>
+        <a href="#" class="toggle-button">
+          <span class="ba"></span>
+          <span class="ba"></span>
+          <span class="ba"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <a href="index2.html">Home</a>
+          </ul>
+          <ul>
+            <a href="about.html">About Us</a>
+          </ul>
+          <ul>
+            <a href="#">Location</a>
+          </ul>
+          <ul>
+            <a href="contactus.html">Contact Us</a>
+          </ul>
+        </div>
+        <div class="btn">
+          <a href="bookingpage.html" target="_blank">BOOK NOW</a>
+        </div>
+      </nav>
+    </header>
+
+    <!--Payment Section-->
+    <section>
+      <div class="inspection">
+        <div class="inspectz">
+          <h3 style="color: black">Input inspection Date & Time</h3>
+          <div>
+            <input
+              type="text"
+              id="ins"
+              name="inspect"
+              placeholder="DD/MM/YY"
+              autocomplete="given-info"
+              class="inspect"
+            />
+            <input
+              type="text"
+              id="ti"
+              name="time"
+              placeholder="Time"
+              autocomplete="given-time"
+              class="inspect1"
+            />
+          </div>
+          <div class="inspectz-logo">
+            <h3 style="color: black">Pay With</h3>
+            <div class="p-ic"><img src="/std haven images/visaa.png" /></div>
+            <div class="p-ic"><img src="/std haven images/gpay.png" /></div>
+            <div class="p-ic"><img src="/std haven images/paypall.png" /></div>
+          </div>
+          <form>
+            <input
+              type="text"
+              class="inspectz-info"
+              placeholder="Pay with Cash/POS"
+              id="text"
+              name="text"
+              autocomplete="card-no"
+              required
+            />
+            <img src="/std haven images/card icon.jpg" class="cardz" />
+            <select class="inspectz-info" id="debit">
+              <option value="debit">Card or debit card</option>
+              <option value="1">Credit Card</option>
+            </select>
+            <div class="inspectz-info2">
+              <img src="/std haven images/card icon.jpg" class="cardz-2" />
+              <input
+                type="text"
+                class="inspectz-info1"
+                placeholder="Card number"
+              />
+              <input
+                type="text"
+                name="expire"
+                id="exp"
+                required
+                class="inspectz-info1"
+                placeholder="Expiration Date                        |  CVV  "
+              />
+            </div>
+          </form>
+          <h4>Total Amount <a>&#8358;2,000</a></h4>
+          <div class="proceedz">
+            <a href="payment.html">Proceed to Pay</a>
+          </div>
+        </div>
+        <div class="inspectz-photo">
+          <img src="/std haven images/Home Picture.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="foot">
+        <div class="logo1">
+          Student<img src="/std haven images/haven logo.jpg" />Haven
+        </div>
+        <div class="ft">
+          <li><h3 href="#">Company</h3></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Partner</a></li>
+          <li><a href="#">Blogs</a></li>
+        </div>
+        <div class="ft">
+          <li><h3 href="#">Help</h3></li>
+          <li><a href="#">How it Works</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </div>
+        <div class="ft">
+          <li><h3 href="#">Our Location</h3></li>
+          <li>
+            <a href="#"
+              >123 Main Street, Cityville, Nigeria<br />Phone: +2349876543<br />hello@studenthaven.com</a
+            >
+          </li>
+        </div>
+        <div class="ft">
+          <li><h3 href="#">Sign Up to Our NewsLetter</h3></li>
+          <div class="ft-input">
+            <input class="input1" type="email" placeholder="Email Address" />
+            <img
+              id="mail-icon"
+              src="/std haven images/mail icon.jpg"
+              alt="mail"
+            />
+          </div>
+          <li><a href="#">Download App</a></li>
+        </div>
+      </div>
+      <div class="copy">
+        <img src="/std haven images/Vector.jpg" />
+        <h3>Copy Student Haven</h3>
+        <i id="ft-icon" class="fab fa-linkedin"></i>
+        <i id="ft-icon" class="fab fa-facebook-square"></i>
+        <i id="ft-icon" class="fab fa-twitter-square"></i>
+        <i id="ft-icon" class="fab fa-instagram-square"></i>
+      </div>
+    </footer>
+    <script src="/scripts/main2.js"></script>
+  </body>
+</html>

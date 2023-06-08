@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Haven</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/std haven images/haven logo.jpg"
+    />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/dc99d87825.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--Nagivation Bar-->
+    <header>
+      <nav class="nav-bar">
+        <div class="logo">
+          Student<img src="/std haven images/haven logo.jpg" />Haven
+        </div>
+        <a href="#" class="toggle-button">
+          <span class="ba"></span>
+          <span class="ba"></span>
+          <span class="ba"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <a href="index2.html">Home</a>
+          </ul>
+          <ul>
+            <a href="about.html">About Us</a>
+          </ul>
+          <ul>
+            <a href="#">Location</a>
+          </ul>
+          <ul>
+            <a href="contactus.html">Contact Us</a>
+          </ul>
+        </div>
+        <div class="btn">
+          <a href="bookingpage.html" target="_blank">BOOK NOW</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--Slider Section-->
+      <section class="sect1">
+        <!-- Slideshow container -->
+        <div class="slide-cont">
+          <div class="slides">
+            <div class="text">
+              Discover Budget-Friendly Student Accommodations in Nigeria
+              <p id="sec-text">Affordable spaces tailored to your budget</p>
+            </div>
+            <button class="slide-btn">
+              <a href="bookingpage.html" target="_blank">BOOK NOW</a>
+            </button>
+            <div class="dot-cont">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+            <div class="input">
+              <span id="search-icon" class="fa fa-search"></span>
+              <input
+                type="text"
+                class="search-bar"
+                name="address"
+                placeholder="Search by University or Location"
+              />
+              <button class="search">Search</button>
+            </div>
+            <img
+              src="/std haven images/backgrd img.jpg"
+              alt="slide image"
+              style="width: 100%"
+              height="500px"
+            />
+          </div>
+          <div class="slides">
+            <div class="text">
+              Explore a Wide Range of Options Tailored to Your Preferences
+              <p id="sec-text">
+                Find your perfect space, customized to your needs
+              </p>
+            </div>
+            <button class="slide-btn"><a href="#">BOOK NOW</a></button>
+            <div class="dot-cont">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+            <div class="input">
+              <span id="search-icon" class="fa fa-search"></span>
+              <input
+                type="text"
+                class="search-bar"
+                name="address"
+                placeholder="Search by University or Location"
+              />
+              <button class="search">Search</button>
+            </div>
+            <img
+              src="/std haven images/background img3.jpg"
+              alt="slide image"
+              style="width: 100%"
+              height="500px"
+            />
+          </div>
+          <div class="slides">
+            <div class="text">
+              Secure Your Ideal Space Hassle-Free and Book with Confidence
+              <p id="sec-text">
+                Seamless and secure booking process you can trust
+              </p>
+            </div>
+            <button class="slide-btn"><a href="#">BOOK NOW</a></button>
+            <div class="dot-cont">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+            <div class="input">
+              <span id="search-icon" class="fa fa-search"></span>
+              <input
+                type="text"
+                class="search-bar"
+                name="address"
+                placeholder="Search by University or Location"
+              />
+              <button class="search">Search</button>
+            </div>
+            <img
+              src="/std haven images/backrgnd img 2.jpg"
+              alt="slide image"
+              style="width: 100%"
+              height="500px"
+            />
+          </div>
+          <div class="slides">
+            <div class="text">
+              Connect with Accommodation Providers and Schedule Viewings
+              <p id="sec-text">
+                Connect directly with providers and arrange viewings
+              </p>
+            </div>
+            <button class="slide-btn"><a href="#">BOOK NOW</a></button>
+            <div class="dot-cont">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+            <div class="input">
+              <span id="search-icon" class="fa fa-search"></span>
+              <input
+                type="text"
+                class="search-bar"
+                name="address"
+                placeholder="Search by University or Location"
+              />
+              <button class="search">Search</button>
+            </div>
+            <img
+              src="/std haven images/bckgrd image 4.jpg"
+              alt="slide image"
+              style="width: 100%"
+              height="500px"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- First Advert Section -->
+      <section class="sect2">
+        <div>
+          <h1>Popular Properties</h1>
+        </div>
+        <div class="advert-item1">
+          <div class="item">
+            <img src="/std haven images/wellings.jpg" />
+            <h4>
+              Wellington's Lodge
+              <span id="sp1"
+                >4.5/5 <i class="fa fa-star checked"></i> (50 reviews)</span
+              >
+            </h4>
+            <p>Yearly Payment <a>&#8358; 200,000</a></p>
+            <p>
+              <i class="fas fa-graduation-cap"></i>University of Port-Harcourt |
+              12mins
+              <span
+                ><i class="fa fa-star checked"></i
+                ><i class="fa fa-star checked"></i
+                ><i class="fa fa-star checked"></i
+                ><i class="fa fa-star checked"></i
+                ><i id="nth" class="fa fa-star checked"></i
+              ></span>
+            </p>
+          </div>
+          <div class="item">
+            <img src="/std haven images/ahms.jpg" />
+            <h4>
+              House of Ahmed (Self-con)
+              <span id="sp2"
+                >4.8/5 <i class="fa fa-star checked"></i> (48 reviews)</span
+              >
+            </h4>
+            <p>Yearly Payment <a>&#8358; 170,000</a></p>
+            <p>
+              <i class="fas fa-graduation-cap"></i>University of Ibadan | 7mins
+              <span
+                ><i class="fa fa-star checked"></i
+                ><i class="fa fa-star checked"></i
+                ><i class="fa fa-star checked"></i
+                ><i class="fa fa-star checked"></i
+                ><i id="nth" class="fa fa-star checked"></i
+              ></span>
+            </p>
+          </div>
+          <div class="item">
+            <img src="/std haven images/nicholas.jpg" />
+            <h4>
+              Nicholas's Lodge (Self-con)
+              <span id="3"
+                >4/5 <i class="fa fa-star checked"></i> (74 reviews)</span
+              >
+            </h4>
+            <p>Monthly Payment <a>&#8358; 50,000</a></p>
+            <p>
+              <i class="fas fa-graduation-cap"></i>University of Lagos | 20mins
+              <span
+                ><i class="fa fa-star checked"></i
+                ><i class="fa fa-star checked"></i
+                ><i class="fa fa-star checked"></i
+                ><i class="fa fa-star checked"></i
+                ><i id="nth" class="fa fa-star checked"></i
+              ></span>
+            </p>
+          </div>
+          <div class="item">
+            <img src="/std haven images/bisola.jpg" />
+            <h4>
+              Bisola's Lodge
+              <span id="sp4"
+                >4.7/5 <i class="fa fa-star checked"></i> (63 reviews)</span
+              >
+            </h4>
+            <p>Yearly Payment <a>&#8358; 35,900</a></p>
+            <p>
+              <i class="fas fa-graduation-cap"></i>University of Port-Harcourt |
+              28mins
+              <span
+                ><i class="fa fa-star checked"></i
+                ><i class="fa fa-star checked"></i
+                ><i class="fa fa-star checked"></i
+                ><i class="fa fa-star checked"></i
+                ><i id="nth" class="fa fa-star checked"></i
+              ></span>
+            </p>
+          </div>
+        </div>
+        <!--Second Advert Section-->
+        <section class="advert-item2">
+          <h1>Not sure what you're looking for?</h1>
+          <center>
+            <div class="advert-item2a">
+              <div class="item1">
+                <img src="/std haven images/List.jpg" />
+                <div>
+                  <p>
+                    Provide us with your information and share more about
+                    yourself.
+                  </p>
+                  <a href="#">Get Started</a>
+                </div>
+              </div>
+              <div class="item1">
+                <img src="/std haven images/Map.jpg" />
+                <div>
+                  <p>
+                    Explore our list of cities and discover your dream
+                    accommodation.
+                  </p>
+                  <a href="#">Check Now</a>
+                </div>
+              </div>
+              <div>
+                <div class="item1">
+                  <img src="/std haven images/Office building.jpg" />
+                  <div>
+                    <p>Our team is here to assist you with your group needs.</p>
+                    <a href="#">Find out More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </center>
+        </section>
+
+        <!--Third Advert Section-->
+        <section class="advert-item3">
+          <h1>Inspiration For Student</h1>
+          <div class="advert-item3a">
+            <div class="item2">
+              <img src="/std haven images/Exam.jpg" />
+              <div>
+                <h3>How to Stay Calm During an Exam</h3>
+                <a>2023-05-11 12:05</a>
+              </div>
+            </div>
+            <div class="item2">
+              <img src="/std haven images/Fun and Study.jpg" />
+              <div>
+                <h3>How to Balance Fun and Study</h3>
+                <a>2023-05-11 12:05</a>
+              </div>
+            </div>
+          </div>
+          <div class="advert-item3a-btn">
+            <a href="#">Read More Articles</a>
+          </div>
+          <div class="advert-item3b">
+            <div class="advert-item3b-text">
+              <div>
+                <h3>110</h3>
+                <p>Bed Spaces</p>
+              </div>
+              <div>
+                <h3>4</h3>
+                <p>Locations</p>
+              </div>
+              <div>
+                <h3>99.3</h3>
+                <p>Occupancy Rates (%)</p>
+              </div>
+              <div>
+                <h3>98</h3>
+                <p>Customer's Satisfaction (%)</p>
+              </div>
+            </div>
+            <img src="/std haven images/home pic.jpg" style="width: 100%" />
+          </div>
+        </section>
+
+        <!--Advert Fourth Section-->
+        <section class="advert-item4">
+          <!--Testemonial Slider-->
+          <div class="slider">
+            <h1>Testimonials</h1>
+            <div class="slyde">
+              <img src="/std haven images/test1.jpg" />
+              <img src="/std haven images/test2.jpg" />
+              <img src="/std haven images/test3.jpg" />
+            </div>
+            <div class="slyde">
+              <img src="/std haven images/test4.jpg" />
+              <img src="/std haven images/test 5.jpg" />
+              <img src="/std haven images/test6.jpg" />
+            </div>
+            <div class="dot-con">
+              <span class="dotz" onclick="currentSlide(1)"></span>
+              <span class="dotz" onclick="currentSlide(2)"></span>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <div class="foot">
+        <div class="logo1">
+          Student<img src="/std haven images/haven logo.jpg" />Haven
+        </div>
+        <div class="ft">
+          <li><h3 href="#">Company</h3></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Partner</a></li>
+          <li><a href="#">Blogs</a></li>
+        </div>
+        <div class="ft">
+          <li><h3 href="#">Help</h3></li>
+          <li><a href="#">How it Works</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </div>
+        <div class="ft">
+          <li><h3 href="#">Our Location</h3></li>
+          <li>
+            <a href="#"
+              >123 Main Street, Cityville, Nigeria<br />Phone: +2349876543<br />hello@studenthaven.com</a
+            >
+          </li>
+        </div>
+        <div class="ft">
+          <li><h3 href="#">Sign Up to Our NewsLetter</h3></li>
+          <div class="ft-input">
+            <input class="input1" type="email" placeholder="Email Address" />
+            <img
+              id="mail-icon"
+              src="/std haven images/mail icon.jpg"
+              alt="mail"
+            />
+          </div>
+          <li><a href="#">Download App</a></li>
+        </div>
+      </div>
+      <div class="copy">
+        <img src="/std haven images/Vector.jpg" />
+        <h3>Copy Student Haven</h3>
+        <i id="ft-icon" class="fab fa-linkedin"></i>
+        <i id="ft-icon" class="fab fa-facebook-square"></i>
+        <i id="ft-icon" class="fab fa-twitter-square"></i>
+        <i id="ft-icon" class="fab fa-instagram-square"></i>
+      </div>
+    </footer>
+
+    <script src="/scripts/main.js"></script>
+  </body>
+</html>
