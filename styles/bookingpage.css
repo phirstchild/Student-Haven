@@ -496,7 +496,7 @@ h3 {
     line-height: 30px;
     text-align: left;
     margin-top: 10px;
-    margin-right: 0px;
+    margin-right: 0;
     margin-left: 10px;
   }
   .info-item p {
