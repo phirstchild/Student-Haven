@@ -162,19 +162,20 @@ header {
   color: var(--color-secondary);
 }
 
-.val2 a {
-  float: right;
+/*.val2 a {
   text-decoration: none;
   color: var(--color-secondary);
-  margin-right: 100px;
-}
+  float: right;
+}*/
 .val2 h3 {
   color: var(--color-primary);
 }
 .value2 img {
-  width: 30.5%;
-  padding-left: 10px;
+  width: 26.5%;
+  padding-left: 8px;
   margin-top: 40px;
+  margin-left: 70px;
+  
 }
 
 /*Footer */
@@ -351,9 +352,16 @@ h3 {
     grid-template-columns: repeat(1, 1fr);
   }
   .value1 {
-    margin-left: 80px;
+    margin-left: 30px;
     margin-right: 40px;
     margin-bottom: 30px;
+  }
+  .value2 img {
+    width: 30.5%;
+    padding-left: 8px;
+    margin-top: 40px;
+    margin-left: 10px;
+    
   }
 
   /*Footer Section*/
@@ -427,5 +435,30 @@ h3 {
     font-size: 20px;
     top: 25px;
     padding: 5px;
+  }
+}
+
+/*Media Query*/
+@media (min-width: 400px) and (max-width:599px) {
+  .val {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+  .value1 {
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+  }
+ 
+  .val2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .value2 img {
+    width: 30.5%;
+    padding-left: 8px;
+    margin-top: 40px;
+    margin-left: 0px;
   }
 }

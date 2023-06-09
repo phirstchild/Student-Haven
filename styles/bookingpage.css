@@ -143,6 +143,10 @@ header {
   color: var(--color-secondary);
   line-height: 100px;
 }
+.info-icon h1{
+  color: black; 
+  font-size: 25px; 
+}
 
 /*Section 2 Apartments*/
 .house {
@@ -383,7 +387,7 @@ h3 {
     margin-top: 40px;
     row-gap: 30px;
     height: auto;
-    width: 100%;
+    width: 80%;
   }
 
   /*Footer Section*/
@@ -459,4 +463,51 @@ h3 {
     top: 25px;
     padding: 5px;
   }
+  *{
+    outline: 1px solid red;
+  }
+}
+
+
+@media (min-width:400px) and (max-width:599px) {
+  .house {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 20px;
+    margin-top: 40px;
+    row-gap: 30px;
+    width: auto;
+  }
+  .house img{
+    width: 90%;
+  }
+  .ahm-info {
+    display: block;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 1rem;
+  }
+  .info-icon h1{
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .info-icon {
+    display: block;
+    font-size: 15px;
+    padding: 0px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+  .info-item p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 10px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
 }

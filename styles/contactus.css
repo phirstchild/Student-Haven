@@ -411,3 +411,42 @@ h3 {
     padding: 5px;
   }
 }
+
+@media (min-width: 400px) and (max-width:599px){
+  .contact-img img{
+    margin-top: 30px;
+    height:200px;
+  }
+  .contact {
+    margin: 0rem;
+    display: block;
+    margin-top: 30px;
+   
+  }
+  .con-form {
+    margin-left: 10px;
+    padding: 15px;
+    width: 90%;
+    border: 1px solid rgba(15, 15, 148, 0.5);
+    border-radius: 4px;
+    margin-top: 30px;
+    outline: transparent;
+  }
+  .contact-info2 h2 {
+    margin-left: 20px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  
+  .con-form1 {
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 10px;
+    width:90%;
+    border: 1px solid rgba(15, 15, 148, 0.5);
+    border-radius: 4px;
+    outline: transparent;
+    padding-bottom: 250px;
+  }
+}
