@@ -491,13 +491,19 @@ h3 {
   }
   .info-icon {
     display: block;
-    font-size: 15px;
+    font-size: 15.5px;
     padding: 0px;
     line-height: 30px;
     text-align: left;
     margin-top: 10px;
     margin-right: 0;
+    margin-left: 0;
+  }
+  .info-icon p,i,h3,a {
     margin-left: 10px;
+  }
+  .info-icon h1{
+    margin-left: 3px;
   }
   .info-item p {
     font-weight: 400;
