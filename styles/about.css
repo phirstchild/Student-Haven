@@ -440,13 +440,16 @@ h3 {
 
 /*Media Query*/
 @media (min-width: 400px) and (max-width:599px) {
+  .about{
+    width:auto;
+  }
   .val {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
   }
   .value1 {
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 100px;
     margin-bottom: 30px;
   }
@@ -461,7 +464,9 @@ h3 {
     margin-top: 40px;
     margin-left: 0px;
   }
-  body{
-    overflow-x: hidden;
+ 
+  *{
+    outline: 1px solid red;
   }
+  
 }
