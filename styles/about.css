@@ -461,4 +461,7 @@ h3 {
     margin-top: 40px;
     margin-left: 0px;
   }
+  body{
+    overflow-x: hidden;
+  }
 }
