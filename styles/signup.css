@@ -495,3 +495,65 @@ h3 {
     margin-right: 40px;
   }
 }
+
+@media (min-width: 400px) and (max-width: 599px){
+  .signup {
+    display: block;
+    margin: 0rem;
+    width: 99%;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+  }
+  .sign img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .sign-logo {
+    display: flex;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 29px;
+    border: 1px solid blue;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    padding-left: 110px;
+  }
+  .sign-logo img {
+    width: 27px;
+    height: 27px;
+  }
+  .signup-info {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .cont {
+  
+    margin-left: 100px;
+    width: 30%;
+    
+  }
+  #em {
+    column-gap: 80px;
+    margin-left: 10px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  #uppp {
+    margin-right: 70px;
+  }
+  .forgot {
+    margin-top: 30px;
+    margin-right: 60px;
+  }
+  #connn {
+    font-size: 30px;
+    margin-right: 70px;
+  }
+}
