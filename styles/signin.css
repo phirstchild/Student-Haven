@@ -434,7 +434,7 @@ h3 {
   }
 }
 
-@media (min-width: 400px) and (max-width: 599px) {
+@media (max-width: 500px) {
   .signin {
     display: block;
     margin: 0rem;
