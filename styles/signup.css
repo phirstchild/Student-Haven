@@ -502,7 +502,7 @@ h3 {
   .signup {
     display: block;
     margin: 0rem;
-    width: 100%;
+    width: auto;
     margin-top: 40px;
     margin-left: 0px;
     margin-bottom: 40px;
