@@ -348,6 +348,8 @@ h3 {
     display: block;
     margin: 3rem;
     width: 80%;
+    border: none;
+    box-shadow: none;
   }
 
   .sign img {
@@ -504,6 +506,7 @@ h3 {
     margin-top: 40px;
     margin-left: 0px;
     margin-bottom: 40px;
+
   }
   .sign img {
     height: 150px;
