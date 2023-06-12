@@ -336,3 +336,14 @@ h3 {
     padding: 5px;
   }
 }
+@media (min-width: 400px) and (max-width: 599px){
+.screen img{
+  width:80%;
+}
+.success-text {
+  padding: 0px;
+}
+.success-text h2 {
+  padding-right: 0px;
+}
+}
