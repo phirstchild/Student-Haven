@@ -504,7 +504,7 @@ h3 {
     margin: 0rem;
     width: auto;
     margin-top: 40px;
-    margin-left: 0px;
+    margin-left:0px;
     margin-bottom: 40px;
 
   }
@@ -547,6 +547,7 @@ h3 {
   }
   body {
     overflow-x: hidden;
+    margin-right: 0px;
   }
   #uppp {
     margin-right: 70px;
