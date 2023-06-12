@@ -433,3 +433,31 @@ h3 {
     padding: 5px;
   }
 }
+
+@media (min-width: 400px) and (max-width: 599px) {
+  .signin {
+    display: block;
+    margin: 0rem;
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .signin-info {
+    margin-left: 0px;
+  }
+  .email {
+    width: 80%;
+  }
+  .cont-1 { 
+    margin-left: 115px;    
+  }
+  .forgot-1 {
+    margin-top: 30px;
+    padding-right: 30px;
+  }
+  
+  #connn-1 {
+    font-size: 30px;
+    padding-right: 35px;
+  }
+}
