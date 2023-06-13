@@ -167,10 +167,16 @@ header {
   text-align: end;
   margin-right: 40px;
 }
-.inspect-info p {
+.inspection-fee{
   line-height: 30px;
   margin-bottom: 20px;
   font-weight: 600;
+  text-align: end;
+  margin-right: 40px;
+}
+.inspection-fee a{
+text-decoration: none;
+color: var(--color-secondary);
 }
 .inspect-info a {
   text-decoration: none;
@@ -268,7 +274,7 @@ h3 {
 }
 #ft-icon {
   position: relative;
-  left: 100px;
+  left: 800px;
   font-size: 30px;
   top: 25px;
   padding: 5px;

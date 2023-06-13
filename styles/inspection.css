@@ -63,7 +63,7 @@ header {
 }
 .navbar-links ul a:hover {
   color: var(--color-secondary);
-  background-color: var(--color-orange);
+  background-color: var(--color-white);
 }
 .btn {
   box-shadow: 0px 4px 4px #0c0b0b;
@@ -87,7 +87,9 @@ header {
 .btn:hover {
   background-color: lightgrey;
 }
-
+.btn:hover a{
+  color: var(--color-primary);
+}
 /* Inspection Section*/
 .inspection {
   margin: 5rem;
