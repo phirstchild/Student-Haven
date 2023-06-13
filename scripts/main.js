@@ -77,7 +77,7 @@ overlay.style.zIndex = "9999";
 var popup = document.createElement("div");
 popup.id = "popup";
 popup.style.position = "absolute";
-popup.style.top = "4%";
+popup.style.top = "4.2%";
 popup.style.left = "50%";
 popup.style.transform = "translate(-50%, -50%)";
 popup.style.width = "300px";
@@ -89,9 +89,12 @@ popup.style.borderRadius = "10px";
 popup.style.zIndex = "10000";
 popup.style.color = "white";
 
+
+
 // Create the message text
 var message = document.createElement("p");
 message.textContent = "Please sign in or sign up to continue.";
+message.style.paddingBottom = '10px'; // Add padding at the bottom
 popup.appendChild(message);
 
 // Create the login button
@@ -101,7 +104,9 @@ loginButton.style.backgroundColor = "#F25202";
 loginButton.style.color = "white";
 loginButton.style.borderRadius = "5px";
 loginButton.style.width = "70px";
+loginButton.style.cursor = "pointer";
 loginButton.style.marginRight = "10px";
+loginButton.style.padding = '5px 9px'; // Add padding inside the button
 loginButton.addEventListener("click", function () {
   console.log("User clicked Log In");
   window.location.href = "signin.html";
@@ -115,6 +120,8 @@ signUpButton.style.backgroundColor = "grey";
 signUpButton.style.color = "white";
 signUpButton.style.borderRadius = "5px";
 signUpButton.style.width = "70px";
+signUpButton.style.cursor = "pointer";
+signUpButton.style.padding = '5px 9px'; // Add padding inside the button
 signUpButton.addEventListener("click", function () {
   console.log("User clicked Sign Up");
   window.location.href = "signup.html";

@@ -95,7 +95,8 @@ header {
   background-color: var(--color-purple);
   margin: 9rem;
   width: 65%;
-  box-shadow: 4px 4px 8px var(--color-secondary);
+  border: 1px solid rgb(221, 216, 216);
+  box-shadow: 2px 3px 5px gray;
 }
 
 .sign-logo {
@@ -502,28 +503,17 @@ h3 {
   .signup {
     display: block;
     margin: 0rem;
-    width: auto;
+    width: 100%;
     margin-top: 40px;
     margin-left:0px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 
   }
-  .sign img {
-    height: 150px;
-    width: 100%;
-    object-fit: cover;
-  }
+  
   .sign-logo {
-    display: flex;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 29px;
-    border: 1px solid blue;
     width: 100%;
     text-align: center;
     padding: 20px;
-    background-color: var(--color-secondary);
-    color: var(--color-white);
     padding-left: 110px;
   }
   .sign-logo img {
